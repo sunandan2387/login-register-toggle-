@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.background{
+    height: 100%;
+    width: 100%;
+}
+
+.background img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+ .container{
+     height: 530px;
+     width: 350px;
+     position: absolute;
+     background-color: white;
+     border-radius: 10px;
+     left: 37.5%;
+     top: 8%;
+     padding: 5px;
+     overflow:hidden;
+ }
+ .button{
+     width:230px;
+     margin-top: 35px;
+     margin-left: 60px;
+     position: relative;
+     box-shadow: 0 0 20px 10px pink;
+     border-radius: 30px;
+ }
+ .toggle-button{
+     padding: 10px 30px;
+     cursor: pointer;
+     background: transparent;
+     border: 0;
+     outline: none;
+     position:relative;
+ }
+ #btn{
+     top: 0;
+     left: 0;
+     position: absolute;
+     width: 120px;
+     height: 100%;
+     background: linear-gradient(to right, #ff105f,#ffad06);
+     border-radius: 30px;
+     transition: 0.5s ease;
+
+ }
+ .icons{
+      margin-left: 55px;
+      margin-top:30px;
+}
+ .icons img{
+     width:40px;
+     height: auto;
+     margin-left: 25px;
+     position: relative;
+     cursor: pointer;
+     
+ }
+ .inputs{
+     position: absolute;
+     margin-left: 30px;
+     margin-top: 70px;
+ }
+ .input-text{
+     
+     background: transparent;
+     font-size: 16px;
+     width:300px;
+     height:30px;
+     margin-top: 20px;
+     border: none;
+     padding: none;
+     border-bottom: 2px solid #999;
+     transition: 0.5s ease;
+ }
+ .check{
+margin-top: 20px;
+margin-left: 5px;
+ }
+ .submit-btn{
+cursor: pointer;
+margin-top: 40px;
+border: none;
+padding: none;
+width: 230px;
+height: 35px;
+margin-left: 35px;
+background: linear-gradient(to right, #ff105f,#ffad06);
+border-radius: 30px;
+transition: 0.5s ease;
+ }
+ .submit-btn a{
+     text-decoration: none;
+     color: black;
+     width: 230px;
+     height: 35px;
+     overflow:auto;
+ }
+ span{
+     color: grey;
+     font-size: 15px;
+ }
+
+ #login{
+     left:0px;
+     transition: 0.5s ease;
+ }
+ #register{
+    left:450px;
+    transition: 0.5s ease;
+}
