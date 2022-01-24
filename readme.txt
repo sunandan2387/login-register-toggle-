@@ -1,4 +1,3 @@
-i have tried to make ui as similar as posible. 
-i didnt had those social media icons and background picture as it was in the assignment
-so i used another icons in there place.
-thankyou for the assignment
+toggle register and login button that works smoothly
+has form validation feature to validate duplicate email and user id while register
+automatically redirects to profile page and show your data that was before saved in local storage
