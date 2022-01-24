@@ -64,14 +64,25 @@
         function store(){
         const uid = userid.value;
         const eid = emailid.value;
+        const user_record=localStorage.getItem('userid');
+        const email_record=localStorage.getItem('emailid');
         console.log(uid);
         if(uid && eid){
             localStorage.setItem("userid",uid);
             localStorage.setItem("emailid",eid)
             location.reload();
+        
+            if(user_record==uid||email_record==eid)
+        {
+           alert("user id or email already exists");
+        }
+        
+
         }
        
         
+        
+      
  
     }
 
